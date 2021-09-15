@@ -7,7 +7,7 @@ sap.ui.define([
 	function (Controller) {
 		"use strict";
 
-		return Controller.extend("icecreammachine.controller.View1", {
+		return Controller.extend("icecreammachine.controller.App", {
 			onInit: function () {
 
 			}

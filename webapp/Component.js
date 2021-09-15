@@ -8,6 +8,7 @@ sap.ui.define([
 	return UIComponent.extend("icecreammachine.Component", {
 
 		metadata: {
+			interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
 		},
 

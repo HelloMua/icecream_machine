@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="icecreammachine.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+>
+    <Page title="{i18n>title}">
+        <content>
+            <mvc:XMLView viewName="icecreammachine.view.Startpage"/>
+        </content>
+    </Page>
+</mvc:View>
